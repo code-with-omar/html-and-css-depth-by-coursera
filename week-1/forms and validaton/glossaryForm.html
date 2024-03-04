@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="my_action_page">
+        <label for="username">Username :</label><br>
+        <input type="text" name="username"><br>
+        <label for="password">Password:</label> <br>
+        <input type="password" name="password" id="password"><br><br>
+        <input type="submit" value="Login">
+    </form>
+    <textarea name="response" id="response" cols="30" rows="10" maxlength="200"></textarea><br>
+    <button type="button" onclick="alert('You just clicked!')">Click Me!
+    </button>
+
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="firstName"> First name:</label><br>
+            <input type="text" name="name" id="name"><br>
+            <label for="lastName"> Last name:</label><br>
+            <input type="text" name="name" id="name"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Qualification</legend>
+            <label for="passDegree">Primary degree: </label><br>
+            <input type="text" id="passDegree" value="masters"><br>
+            <label for="passDegree">Primary degree: </label><br>
+            <input type="text" id="passDegree" value="masters"><br>
+        </fieldset>
+        <label for="flowers">Favourite flower:</label><br>
+        <input list="flowers" name="flowers">
+        <datalist id="flowers">
+            <option value="Rose">
+            <option value="Lily">
+            <option value="Tulip">
+            <option value="Daffodil">
+            <option value="Orchid">
+        </datalist>
+     
+    </form>
+</body>
+
+</html>
